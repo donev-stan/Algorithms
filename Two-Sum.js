@@ -2,6 +2,14 @@
 // You may assume that each input would have  exactly one solution, and you may not use the same element twice.
 // You can return the answer in any order.
 
+// Solved using Hash Table
+
+/**
+ * 
+ * @param {number[]} numbers 
+ * @param {number} target 
+ * @returns {number[]}
+ */
 function solve(numbers, target) {
     const previousValues = {};
 
